@@ -14,6 +14,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
+      "terminal-plus"
     ]
     themes: [
       "spacegray-dark-ui"
@@ -31,6 +32,37 @@
     plugins:
       bookmarks: true
       bookmarksDecorationsZIndex: 0
+  "terminal-plus":
+    ansiColors:
+      normal:
+        blue:
+          red: 77
+          green: 83
+          blue: 255
+          alpha: 1
+        green:
+          red: 0
+          green: 223
+          blue: 0
+          alpha: 1
+        red:
+          red: 255
+          green: 72
+          blue: 89
+          alpha: 1
+        yellow:
+          red: 250
+          green: 251
+          blue: 8
+          alpha: 1
+    style:
+      animationSpeed: 2
+      defaultPanelHeight: "400px"
+      fontFamily: "Inconsolata for Powerline"
+      fontSize: "12"
+      theme: "dracula"
+    toggles:
+      autoClose: true
   "tree-view":
     hideIgnoredNames: true
   welcome:

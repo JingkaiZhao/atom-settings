@@ -31,11 +31,26 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+# markdown preview
 'atom-workspace, atom-workspace atom-text-editor':
   'ctrl-shift-M': 'markdown-preview:toggle'
 
+# emmet
 'atom-pane atom-text-editor[data-grammar~="html"]:not([mini]):not(.autocomplete-active), atom-pane atom-text-editor[data-grammar~="xml"]:not([mini]):not(.autocomplete-active)':
   'enter': 'emmet:insert-formatted-line-break-only'
 
 'atom-text-editor[data-grammar="text html basic"]:not([mini]), atom-text-editor[data-grammar~="erb"]:not([mini]), atom-text-editor[data-grammar~="jade"]:not([mini]), atom-text-editor[data-grammar~="css"]:not([mini]), atom-text-editor[data-grammar~="stylus"]:not([mini]), atom-text-editor[data-grammar~="sass"]:not([mini]), atom-text-editor[data-grammar~="scss"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
+
+# terminal plus
+'.platform-darwin atom-workspace':
+  'cmd-shift-t': 'terminal-plus:new'
+  'cmd-shift-j': 'terminal-plus:prev'
+  'cmd-shift-k': 'terminal-plus:next'
+  'cmd-shift-x': 'terminal-plus:close'
+  'ctrl-enter': 'terminal-plus:insert-selected-text'
+  'cmd-`': 'terminal-plus:toggle'
+
+'.platform-darwin .terminal-plus .terminal':
+  'cmd-c': 'terminal-plus:copy'
+  'cmd-v': 'terminal-plus:paste'
