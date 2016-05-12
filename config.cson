@@ -1,0 +1,37 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "dc7d9204-9ea5-45ea-82ab-d8a96fde9dce"
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "*.pyc"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  editor:
+    fontSize: 13
+    preferredLineLength: 140
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "c96ebc35-9430-0067-7f07-7f1ef5d648ec"
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
